@@ -1,0 +1,66 @@
+@charset "utf-8";
+
+@font-face {
+		font-family: Champagne;
+		src: url(cac_champagne.woff) format('woff'),
+			 url(cac_champagne.ttf) format('ttf');
+}
+
+html {
+		background-color: #1d2120;
+}
+body {
+		background-color: #729f98;
+		font-family: Verdana, Geneva, sans-serif;
+}
+
+h1, h2 {
+		font-weight: normal;
+}
+
+body > header > nav {
+		background-color: #173e43;
+}
+nav a { 
+		text-decoration: none; 
+		font-weight: none;
+		color: black;
+}
+
+section#leftcol {
+		background-color: #dddfd4;
+}
+section#leftcol > h1 {
+		font-family:  Verdana, Geneva, sans-serif;
+		font-size: 4em;
+		margin: 10px 0px 10px 10px;
+		padding: 0;
+}
+section#leftcol > p {
+		margin: 20px 20px 20px 20px;
+}
+
+section#rightcol {
+		background-color: #729f98;
+}
+
+section#rightcol h2 {
+		font-family:  Verdana, Geneva, sans-serif;
+		font-size: 2em;
+		margin-bottom: 5px;
+}
+section#rightcol ul {
+		padding-left: 20px;
+		list-style-type: none;
+		font-size: 0.9em;
+}
+
+footer {
+		background-color: #173e43;
+		color: #dddfd4;
+		text-align: center;
+		font-size: 0.8em;
+		font-variant: small-caps;
+		padding-top: 5px;
+		padding-bottom: 5px;
+}

@@ -1,0 +1,92 @@
+body {
+		margin: 0 auto;
+		display: block;
+		width: 70%;
+		max-width: 1020x;
+		min-width: 640px;
+}
+body > header > img {
+		width: 100%;
+		display: block;
+		margin: 0;
+		overflow: auto;
+}
+body > section#leftcol {
+		width: 70%;
+		float: left;
+		margin-left: 0%;
+		margin-right: 4%;
+}
+body > section#rightcol {
+		width: 24%;
+		float: left;
+		margin-right: 2%;
+}
+footer {
+		clear: both;
+}
+
+address, article, aside, blockquote, body, cite, div, dl, dt, dd, em, figcaption, figure, footer, h1, h2, h3, h4, h5, h6,
+html, img, li, main, nav, ol, p, section, span, ul {
+		-webkit-box-sizing: border-box;
+		-moz-box-sizing: border-box;
+		box-sizing: border-box;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #dddfd4;
+  padding: 20px;
+}
+
+#table {
+		width: 90%;
+		margin-left: auto;
+		margin-right: auto;
+		padding: 20px;
+}
+table {
+		width: 80%;
+		margin-left: auto;
+		margin-right: auto;
+}
+
+table, tr, th, td {
+		border-collapse: collapse;
+		border: solid 0.1em #000000;
+		padding: 1em;
+		margin-bottom: 1em;
+}
+
+td {
+		text-align: center;
+}
+
+caption {
+		font-size: 2em;
+		padding: 1em;
+		margin-top: 1em;
+}
+header > nav {
+		display: table;
+		width: 100%;
+}
+header > nav > ul {
+		display: table-row;
+		list-style-type: none;
+}
+header > nav > ul > li {
+		display: table-cell;
+		text-align: center;
+}
+header > nav a {
+		display: block;
+		width: 100%;
+}
+
+section#leftcol img {
+		float: left;
+		display: block;
+		overflow: auto;
+		padding: 20px;
+}
